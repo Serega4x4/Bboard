@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 @section('title', 'Главная')
 @section('content')
 
@@ -8,7 +8,7 @@
         <tr>
             <th>Товар</th>
             <th>Цена</th>
-            <th>$nbsp</th>
+            <th>&nbsp</th>
         </tr>
     </thead>
     <tbody>
