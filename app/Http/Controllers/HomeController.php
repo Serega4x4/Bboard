@@ -24,6 +24,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home', ['bbs' => Auth::users()->bbs()->latest()->get()]);
+        return view('home', ['bbs' => Auth::user()->bbs()->latest()->get()]);
     }
 }
